@@ -1,1 +1,161 @@
-*{margin:0;padding:0;font-family:sans-serif}ul li{list-style:none!important}.topbar{background-color:#111c55;color:#abaebe}.search input{background-color:transparent;color:#abaebe;border:1px solid #303e81;margin-left:60px}input:focus{outline:0}.search i{position:absolute;right:40px;top:20px}.header a,.header li{color:#000}ul a{font-weight:600}.header li:hover,a:hover{color:#2685f9!important}.counters{background-color:#111c55;color:#fff;font-weight:700}.welcome{margin-top:100px}.gallery h2,.welcome h2{font-weight:700!important}.click{color:#000;border-radius:36px;background-color:#e1e8f4}.intro{background-color:#2685f9;text-transform:uppercase;width:400px;box-sizing:border-box}.intro:hover{background-color:#111c55}.video{display:flex;flex-direction:row}.video div{margin-left:10px}.text{margin-top:100px}.text h4{padding-top:20px}.text button{background-color:#f8e510;padding:15px 50px;color:#111c55;box-shadow:5px 5px #fff;border:none}.text button:active{background-color:#a09e9e}.footer{background-color:#111d59}.connect ul li{float:left;cursor:pointer;line-height:1.7;font-size:14px;margin-right:5px;border-radius:50%}.connect ul li a{padding-left:4px;line-height:1.7;position:relative;top:3px;right:2px}.connect ul li a .fa{color:#fff;width:30px;height:25px}.connect a i:hover{color:#2685f9!important}p{color:#abaebe}@media (max-width:700px){.welcome img{width:300px}.intro{width:300px}.video{flex-direction:column}.video iframe{width:290px;height:auto}.text{flex-direction:column}}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif
+}
+
+ul li {
+    list-style: none !important
+}
+
+.topbar {
+    background-color: #111c55;
+    color: #abaebe
+}
+
+.search input {
+    background-color: transparent;
+    color: #abaebe;
+    border: 1px solid #303e81;
+    margin-left: 60px
+}
+
+input:focus {
+    outline: 0
+}
+
+.search i {
+    position: absolute;
+    right: 40px;
+    top: 20px
+}
+
+.header a, .header li {
+    color: #000
+}
+
+ul a {
+    font-weight: 600
+}
+
+.header li:hover, a:hover {
+    color: #2685f9 !important
+}
+
+.counters {
+    background-color: #111c55;
+    color: #fff;
+    font-weight: 700
+}
+
+.welcome {
+    margin-top: 100px
+}
+
+.gallery h2, .welcome h2 {
+    font-weight: 700 !important
+}
+
+.click {
+    color: #000;
+    border-radius: 36px;
+    background-color: #e1e8f4
+}
+
+.intro {
+    background-color: #2685f9;
+    text-transform: uppercase;
+    width: 400px;
+    box-sizing: border-box
+}
+
+.intro:hover {
+    background-color: #111c55
+}
+
+.video {
+    display: flex;
+    flex-direction: row
+}
+
+.video div {
+    margin-left: 10px
+}
+
+.text {
+    margin-top: 100px
+}
+
+.text h4 {
+    padding-top: 20px
+}
+
+.text button {
+    background-color: #f8e510;
+    padding: 15px 50px;
+    color: #111c55;
+    box-shadow: 5px 5px #fff;
+    border: none
+}
+
+.text button:active {
+    background-color: #a09e9e
+}
+
+.footer {
+    background-color: #111d59
+}
+
+.connect ul li {
+    float: left;
+    cursor: pointer;
+    line-height: 1.7;
+    font-size: 14px;
+    margin-right: 5px;
+    border-radius: 50%
+}
+
+.connect ul li a {
+    padding-left: 4px;
+    line-height: 1.7;
+    position: relative;
+    top: 3px;
+    right: 2px
+}
+
+.connect ul li a .fa {
+    color: #fff;
+    width: 30px;
+    height: 25px
+}
+
+.connect a i:hover {
+    color: #2685f9 !important
+}
+
+p {
+    color: #abaebe
+}
+
+@media (max-width:700px) {
+    .welcome img {
+        width: 300px
+    }
+
+    .intro {
+        width: 300px
+    }
+
+    .video {
+        flex-direction: column
+    }
+
+    .video iframe {
+        width: 290px;
+        height: auto
+    }
+
+    .text {
+        flex-direction: column
+    }
+}
